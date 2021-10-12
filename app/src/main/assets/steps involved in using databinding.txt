@@ -1,0 +1,23 @@
+Steps involves assuming you hava a project without DataBinding
+1. ENABLE DATA BINDING
+
+build.gradle
+
+   android {
+   ...
+       dataBinding {
+          enabled true
+       }
+   }
+
+2.convert a regular layout to Data Binding layout:
+
+   Wrap your layout with a <layout> tag
+   Add layout variables (optional)
+   Add layout expressions (optional)
+
+3. Wire up the databinding in the activity
+
+4.
+
+
